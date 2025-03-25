@@ -26,7 +26,7 @@ const ProjectSection = ({ title, projects, isEven }) => {
   };
 
   return (
-    <div className={`w-full py-16 ${isEven ? 'bg-[#172121]' : 'bg-[#151821]'}`}>
+    <div className={`w-full py-16 ${isEven ? 'bg-[#2b0966]' : 'bg-[#2b1e42]'}`}>
       <div className="max-w-7xl mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-12 text-thistle">
           {title} 💼
@@ -36,7 +36,7 @@ const ProjectSection = ({ title, projects, isEven }) => {
           <Slider {...settings}>
             {projects.map((project, index) => (
               <div key={index} className="px-3">
-                <div className={`${isEven ? 'bg-[#151821]' : 'bg-[#172121]'} text-thistle p-8 rounded-lg shadow-xl h-full`}>
+                <div className={`${isEven ? 'bg-[#2b1e42]' : 'bg-[#2b0966]'} text-thistle p-8 rounded-lg shadow-xl h-full`}>
                   <h3 className="text-2xl font-semibold mb-4">{project.title}</h3>
                   <p className="text-gray-300 mb-6 text-sm leading-relaxed">
                     {project.description}

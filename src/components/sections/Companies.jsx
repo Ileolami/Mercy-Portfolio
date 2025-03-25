@@ -8,16 +8,21 @@ export default function Companies() {
       image: "/assets/twmp.jpeg"
     },
 
-  
     {
-      name: "Builtin",
-      link: "https://builtin.com/authors/judith-etugbo",
-      image: "/built-in-1.jpg"
+      name: "Unhashed",
+      link: "https://unhashed.io/",
+      image: "public/Screenshot 2025-03-25 at 10.39.45 AM.png"
+    },
+
+    {
+      name: "GoatCoinSTX",
+      link: "https://medium.com/@goatcoinstx/",
+      image: "public/1_1eAbUZjBkigQ7aAbPP0fOA.jpg"
     },
   ];
 
   return (
-    <section className="py-20 px-6 bg-eerieBlack">
+    <section className="py-20 px-6 bg-[#2b1e42]">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold mb-4">Companies I've worked with 🤝</h2>

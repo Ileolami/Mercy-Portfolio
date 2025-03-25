@@ -6,17 +6,17 @@ const ProfileShowcase = () => {
 
   const profiles = [
     {
-      platform: "Medium",
-      username: "@judypearls200",
-      link: "https://medium.com/@judypearls200",
-      description: "Web3 Technical Content and General articles",
-      color: "from-black to-gray-800",
-      icon: "👨‍💻"
+      platform: "Dev.to",
+      username: "@ileolami",
+      link: "https://dev.to/ileolami",
+      description: "Technical Content, Tutorials and General Articles",
+      color: "from-blue-500 to-purple-500",
+      icon: "📝"
     },
     {
       platform: "Hashnode",
-      username: "@Judy",
-      link: "https://judy.hashnode.dev/",
+      username: "@ileolami",
+      link: "https://ileolami.hashnode.dev/",
       description: "Technical Content, Tutorials and General Articles",
       color: "from-purple-500 to-blue-500",
       icon: "🌐"
@@ -24,16 +24,16 @@ const ProfileShowcase = () => {
    
     {
       platform: "Hackernoon",
-      username: "@judithetugbo",
-      link: "https://hackernoon.com/u/judithetugbo",
-      description: "Technical content and latest technology in AI and Web3",
+      username: "@ileolami",
+      link: "https://hackernoon.com/u/ileolami",
+      description: "Technical content and latest technology in AI, Programming and Web3",
       color: "from-green-500 to-emerald-700",
       icon: "🚀"
     },
     {
       platform: "Resume",
       username: "Download PDF",
-      link: "/Judith Etugbo Technical Writing Resume.pdf",
+      link: "public/Original Technical Writing CV (1).pdf",
       description: "View my full professional experience and skills",
       color: "from-red-500 to-orange-500",
       icon: "📄"
@@ -41,7 +41,7 @@ const ProfileShowcase = () => {
   ];
 
   return (
-    <section className="py-20 px-6 bg-[#172121] overflow-hidden relative">
+    <section className="py-20 px-6 bg-[#2b0966] overflow-hidden relative">
       {/* Animated background particles */}
       <div className="absolute inset-0 opacity-20">
         {[...Array(20)].map((_, i) => (

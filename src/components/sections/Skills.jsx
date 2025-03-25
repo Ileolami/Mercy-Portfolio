@@ -161,8 +161,8 @@ const SkillsMarquee = () => {
       />
       
       {/* Enhanced gradient overlays for smoother fade effect */}
-      <div className="absolute left-0 top-0 z-10 h-full w-32 bg-gradient-to-r from-[#172121] via-[#172121] to-transparent" />
-      <div className="absolute right-0 top-0 z-10 h-full w-32 bg-gradient-to-l from-[#172121] via-[#172121] to-transparent" />
+      <div className="absolute left-0 top-0 z-10 h-full w-32 bg-gradient-to-r from-[] via-[] to-transparent" />
+      <div className="absolute right-0 top-0 z-10 h-full w-32 bg-gradient-to-l from-[#172121] via-[] to-transparent" />
       
       {/* Scrolling content with improved spacing and animation */}
       <div className="flex animate-[marquee_30s_linear_infinite] whitespace-nowrap">
