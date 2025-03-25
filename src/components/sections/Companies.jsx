@@ -13,7 +13,7 @@ export default function Companies() {
     {
       name: "Unhashed",
       link: "https://unhashed.io/",
-      image: "public/assets/unhashed.png"
+      image: "public/unhashed-logo.avif"
     },
 
     {
