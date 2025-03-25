@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="w-full md:w-1/3 flex justify-center mt-10 md:mt-0 mb-10">
           <div className="w-72 h-72 rounded-full overflow-hidden bg-gray-200 transform transition-transform duration-300 hover:scale-110">
             <img
-              src="/public/mercy.png"
+              src="/assets/mercy.png"
               alt="Profile"
               className="w-[100%] h-[100%] object-cover"
             />
