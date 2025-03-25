@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Github, Linkedin, Mail, Menu, X } from 'lucide-react';
+import { Github, Linkedin, Mail, Menu, Twitter, Youtube } from 'lucide-react';
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,6 +18,8 @@ export default function Navbar() {
           <a href="https://github.com/ileolami" className="hover:text-blue-400"><Github /></a>
           <a href="https://www.linkedin.com/in/makindemercymiracle" className="hover:text-blue-400"><Linkedin /></a>
           <a href="mailto:makindemercymiracle@gmail.com" className="hover:text-blue-400"><Mail /></a>
+          <a href='https://www.twitter.com/@_ileolami' className="hover:text-blue-400"><Twitter /></a>
+          <a href='https://www.youtube.com/@ileolami' className="hover:text-blue-400"><Youtube /></a>         
         </div>
 
         {/* Mobile Menu Button */}
@@ -41,6 +43,12 @@ export default function Navbar() {
               <a href="mailto:makindemercymiracle@gmail.com" className="hover:text-blue-400 flex items-center space-x-3 text-white w-full justify-center py-3 border border-gray-700 rounded-lg">
                 <Mail /> <span>Email</span>
               </a>
+              <a href='https://www.twitter.com/@_ileolami' className="hover:text-blue-400">
+               <Twitter /> <span>Twitter</span>
+              </a>
+              <a href='https://www.youtube.com/@ileolami' className="hover:text-blue-400">
+               <Youtube /> <span>Youtube</span>
+              </a> 
             </div>
           </div>
         )}

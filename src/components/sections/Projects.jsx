@@ -85,49 +85,49 @@ const Projects = () => {
       title: "Technical Articles",
       projects: [
         {
-          title: "Cybersecurity Risks of Cross-Chain Interoperability",
-          description: "An explanatory and informative article about the cybersecurity risks associated with cross-chain solutions.",
-          tags: ["Cross-Chain", "Blockchain", "Web3"],
-          links: { preview: "https://builtin.com/articles/cybersecurity-risks-cross-chain-interoperability" },
+          title: "A Beginner's Guide to Dockerizing a Vite dApp Project",
+          description: "An explanatory article on how to dockerize a Vite dApp project.",
+          tags: ["Docker", "Blockchain", "Web3", "dApp"],
+          links: { preview: "https://hackernoon.com/a-beginners-guide-to-dockerizing-a-vite-dapp-project" },
         },
 
         {
-          title: "Why Multi-Signature Wallets are crucial for Blockchain Security",
-          description: "This article explains what Multi-Signature wallets are and highlights their importance in blockchain security",
-          tags: ["Crypto Wallets", "Web3", "Multi-sig"],
-          links: { preview: "https://builtin.com/articles/multi-signature-crypto-wallets" },
+          title: "How to Integrate Smart Contracts to the Frontend",
+          description: "A step by step guide on how to integrate smart contracts to the frontend.",
+          tags: ["Smart Contracts", "Web3", "Frontend", "Blockchain", "dApp"],
+          links: { preview: "https://hackernoon.com/how-to-integrate-smart-contracts-to-the-frontend" },
         },
 
         {
-          title: "Zora & Base Integration Promoting Inclusivity by Bringing Creators Onchain",
-          description: " This article explores how Zora and Base integration promotes inclusivity by bringing creators onchain.",
-          tags: ["Zora", "Base", "Onchain"],
-          links: { preview: "https://medium.com/@judypearls200/zora-base-integration-promoting-inclusivity-by-bringing-creators-on-chain-19bf8d236904" },
+          title: "Build a Real-time Crypto Tracker with Coingecko API and ReactJS",
+          description: "A step by step guide on how to build a real-time crypto tracker with Coingecko API and ReactJS.",
+          tags: ["Coingecko", "API", "ReactJS", "Web3"],
+          links: { preview: "https://hackernoon.com/build-a-real-time-crypto-tracker-with-coingecko-api-and-reactjs" },
         },
 
         {
-          title: "What is Developer Documentation for Technical Writers",
-          description: "An explanatory and informative article that explains what developer documentation is and its importance for technical writers.",
-          tags: ["Documentation", "Technical Writers", "Developer Docs"],
-          links: { preview: "https://judy.hashnode.dev/what-is-developer-documentation-for-technical-writers" },
+          title: "How to Build a Telegram Bot That Queries Rootstock Data Using Rootstock RPC API",
+          description: "A step by step guide on how to build a Telegram bot that queries Rootstock data using Rootstock RPC API.",
+          tags: ["Telegram Bot", "Rootstock", "RPC API"],
+          links: { preview: "https://hackernoon.com/how-to-build-a-telegram-bot-that-queries-rootstock-data-using-rootstock-rpc-api" },
         },
         {
-          title: "Exploring Bitcoin Sidechains and Their Usecases",
-          description: "A conceptual article about Bitcoin sidechains and their usecases",
-          tags: ["Bitcoin", "Sidechains", "Web3"],
-          links: { preview: "https://hackernoon.com/exploring-bitcoin-sidechains-and-their-use-cases" },
+          title: "How to Convert Your API Documentation to an OpenAPI in Less Than 5 Minutes",
+          description: "A step by step guide on how to convert your API documentation to an OpenAPI in less than 5 minutes.",
+          tags: ["API Documentation", "OpenAPI", "OAS"],
+          links: { preview: "https://hackernoon.com/how-to-convert-your-api-documentation-to-an-openapi-in-less-than-5-minutes" },
         },
         {
-          title: "Master the Basics of SEO for Beginners using Semrush",
-          description: "A conceptual guide that explains SEO for beginners and how to use Semrush for keyword research.",
-          tags: ["SEO", "Semrush", "Keyword Research"],
-          links: { preview: "https://technicalwritingmp.com/blog/master-the-basics-of-seo-using-semrush/" },
+          title: "Decharge: Deep Dive on the opportunities for electric energy storage in Nigeria",
+          description: "A research paper on the opportunities for electric energy storage in Nigeria.",
+          tags: ["Energy Storage", "Electricity", "Nigeria"],
+          links: { preview: "https://ileolami.hashnode.dev/decharge-deep-dive-on-the-opportunities-for-electric-energy-storage-in-nigeria" },
         },
         {
-          title: "How to Host a Static Website using AWS EC2 and Nginx",
-          description: "A step by step guide on how to host a static website using AWS and Nginx.",
-          tags: ["AWS", "EC2", "Hosting"],
-          links: { preview: "https://judy.hashnode.dev/how-to-host-a-static-website-with-aws-ec2-using-nginx" },
+          title: "How to Create Google Login Using Google Auth API with ReactJS",
+          description: "A step by step guide on how to create Google login using Google Auth API with ReactJS.",
+          tags: ["Google Auth API", "ReactJS", "Authentication"],
+          links: { preview: "https://ileolami.hashnode.dev/how-to-create-google-login-using-google-auth-api-with-reactjs" },
         },
         
        
@@ -140,40 +140,22 @@ const Projects = () => {
         {
           title: "The Movie Database API Reference",
           description: "Comprehensive API documentation for The Movie Database API, including authentication and endpoint details.",
-          tags: ["API", "Postman"],
-          links: { preview: "https://documenter.getpostman.com/view/30107197/2s9YsRcpH2#32c6cbd2-c3e7-46f3-a4ef-e45a04c55dfa" },
+          tags: ["API", "Postman", "Mintlify"],
+          links: { preview: "https://ileolami.mintlify.app/the-basics/introduction" },
         },
         {
-          title: "Radeur API Reference",
-          description: "Comprehensive API documentation for Radeur, including authentication, and endpoints details",
+          title: "Twillo API Reference",
+          description: "Comprehensive API documentation for Twillo, including authentication, and endpoints details",
+          tags: ["API", "ReadMe"],
+          links: { preview: "https://twillo-api.readme.io/reference/getting-started-with-your-api" },
+        },
+        {
+          title: "Plaid API Reference",
+          description: "Comprehensive API documentation for Plaid API, including authentication and endpoint details.",
           tags: ["API", "Postman"],
-          links: { preview: "https://documenter.getpostman.com/view/30107197/2sA2r9WPD2" },
+          links: { preview: "https://documenter.getpostman.com/view/32923208/2sAYBUDsTy" },
         },
       
-      ],
-    },
-    documentationSites: {
-      title: "Developer Documentation",
-      projects: [
-        {
-          title: "Retrofit Documentation",
-          description: "A Type-safe HTTP client for Android and Java applications that simplifies communication with web APIs .",
-          tags: ["Android Library", "Mkdocs"],
-          links: { preview: "https://021cbc9e.retrofit-docs.pages.dev/" },
-        },
-        {
-          title: "Pouchwize Documentation",
-          description: "User Documentation for P2P lending and borrowing built on Starknet Blockchain",
-          tags: ["DeFi", "Web3"],
-          links: { preview: "https://pouchwize.gitbook.io/pouchwize-docs" },
-        },
-        {
-          title: "Android Glide Documentation",
-          description: "Developer documentation for efficient image loading library for Android.",
-          tags: ["Android", "Library"],
-          links: { preview: "https://nickyshe.github.io/Glide-V4/#/" },
-        },
-       
       ],
     },
   
@@ -181,18 +163,44 @@ const Projects = () => {
       title: "Open Source Contributions",
       projects: [
         {
-          title: "JSON SChema Documentation",
-          description: "Contributed to the JSON Schema documentation ensuring the use of standardized pronouns, content clarity, and reorganized page for better understanding.",
-          tags: ["JSON", "JSON Schema"],
-          links: { preview: "https://json-schema.org/overview/what-is-jsonschema" },
+          title: "TWMP Markdown Course",
+          description: (
+            <>
+              Contributed to the TWMP Markdown course, authored the{" "}
+              <a
+                href="https://technicalwritingmp.com/docs/markdown-course/getting-started-with-markdown/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:underline"
+              >
+                Getting started with Markdowns
+              </a>{" "}
+              section and course assignment sections.
+            </>
+          ),
+          tags: ["Markdown", "API Documentation", "Technical Writing"],
+          links: { preview: "https://technicalwritingmp.com/docs/markdown-course/authors/" },
         },
         {
-          title: "TWMP API Documentation Course",
-          description: "Created API Documentation course content, authored detailed articles and wrote two blog post in the documentation site. ",
-          tags: ["API Documentation", "OAS"],
-          links: { preview: "https://technicalwritingmp.com/docs/api-docs-course/authors/" },
-        }
-      ],
+          title: "TWMP Markdown Course",
+          description: (
+            <>
+              Contributed to the TWMP Markdown course, authored the{" "}
+              <a
+                href="https://technicalwritingmp.com/docs/markdown-course/getting-started-with-markdown/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:underline"
+              >
+                Getting started with Markdowns
+              </a>{" "}
+              section and course assignment sections.
+            </>
+          ),
+          tags: ["Markdown", "API Documentation", "Technical Writing"],
+          links: { preview: "https://technicalwritingmp.com/docs/markdown-course/authors/" },
+        },
+      ]
     },
   };
 
