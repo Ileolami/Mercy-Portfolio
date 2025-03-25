@@ -1,4 +1,6 @@
 import React from 'react';
+import GoatCoinSTX from '../../../public/assets/goatcoinstx.jpg';
+import Unhashed from '../../../public/assets/unhashed.png'
 
 export default function Companies() {
   const companies = [
@@ -11,13 +13,13 @@ export default function Companies() {
     {
       name: "Unhashed",
       link: "https://unhashed.io/",
-      image: "/public/unhashed.png"
+      image: "public/assets/unhashed.png"
     },
 
     {
       name: "GoatCoinSTX",
       link: "https://medium.com/@goatcoinstx/",
-      image: "/public/goatcoinstx.jpg"
+      image: "public/assets/goatcoinstx.jpg"
     },
   ];
 
