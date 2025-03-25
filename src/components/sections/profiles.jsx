@@ -33,7 +33,7 @@ const ProfileShowcase = () => {
     {
       platform: "Resume",
       username: "Download PDF",
-      link: "public/Original Technical Writing CV (1).pdf",
+      link: "assets/Original Technical Writing CV (1).pdf",
       description: "View my full professional experience and skills",
       color: "from-red-500 to-orange-500",
       icon: "📄"
