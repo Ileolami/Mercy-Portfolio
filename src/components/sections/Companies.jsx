@@ -21,6 +21,19 @@ export default function Companies() {
       link: "https://medium.com/@goatcoinstx/",
       image: "/assets/goatcoinstx.jpg"
     },
+
+    {
+      name: "Web3Ladies",
+      link: "https://web3ladies.com/",
+      image: "/assets/web3ladies-logo.svg"
+    },
+
+    {
+      name: "SuperTeamNG",
+      link: "https://ng.superteam.fun/",
+      image: "/assets/superteamng.svg"
+    }
+    
   ];
 
   return (
