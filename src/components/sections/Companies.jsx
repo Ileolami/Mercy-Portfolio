@@ -11,13 +11,13 @@ export default function Companies() {
     {
       name: "Unhashed",
       link: "https://unhashed.io/",
-      image: "public/Screenshot 2025-03-25 at 10.39.45 AM.png"
+      image: "/public/unhashed.png"
     },
 
     {
       name: "GoatCoinSTX",
       link: "https://medium.com/@goatcoinstx/",
-      image: "public/1_1eAbUZjBkigQ7aAbPP0fOA.jpg"
+      image: "/public/goatcoinstx.jpg"
     },
   ];
 
