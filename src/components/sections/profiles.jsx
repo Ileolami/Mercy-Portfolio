@@ -41,7 +41,7 @@ const ProfileShowcase = () => {
   ];
 
   return (
-    <section className="py-20 px-6 bg-[#2b0966] overflow-hidden relative">
+    <section className="py-20 px-6 bg-[#2b1e42] overflow-hidden relative">
       {/* Animated background particles */}
       <div className="absolute inset-0 opacity-20">
         {[...Array(20)].map((_, i) => (

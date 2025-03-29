@@ -27,7 +27,7 @@ export default function Navbar() {
           onClick={toggleMenu} 
           className="md:hidden p-2 hover:bg-gray-100 rounded-lg transition-colors z-50"
         >
-          {isOpen ? <X /> : <Menu />}
+          {isOpen ? <Menu /> : <Menu />}
         </button>
 
         {/* Mobile Menu */}
@@ -43,10 +43,10 @@ export default function Navbar() {
               <a href="mailto:makindemercymiracle@gmail.com" className="hover:text-blue-400 flex items-center space-x-3 text-white w-full justify-center py-3 border border-gray-700 rounded-lg">
                 <Mail /> <span>Email</span>
               </a>
-              <a href='https://www.twitter.com/@_ileolami' className="hover:text-blue-400">
+              <a href='https://www.twitter.com/@_ileolami' className="hover:text-blue-400 flex items-center space-x-3 text-white w-full justify-center py-3 border border-gray-700 rounded-lg">
                <Twitter /> <span>Twitter</span>
               </a>
-              <a href='https://www.youtube.com/@ileolami' className="hover:text-blue-400">
+              <a href='https://www.youtube.com/@ileolami' className="hover:text-blue-400 flex items-center space-x-3 text-white w-full justify-center py-3 border border-gray-700 rounded-lg">
                <Youtube /> <span>Youtube</span>
               </a> 
             </div>

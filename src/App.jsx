@@ -6,6 +6,7 @@ import Companies from './components/sections/Companies'
 import Contact from './components/sections/Contact'
 import ProfileShowcase from './components/sections/profiles'
 import SkillsMarquee from './components/sections/Skills'
+import Feedback from './components/sections/Feedback'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <Services />
       <Projects />
+      <Feedback />
       <ProfileShowcase />
       <Companies />
       <SkillsMarquee />
