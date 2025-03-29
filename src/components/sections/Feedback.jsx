@@ -43,7 +43,7 @@ const FeedbackSection = ({ title, projects, isEven }) => {
                   <img
                     src={project.image}
                     alt={project.title || "Feedback"}
-                    className="w-[1000px] h-52 rounded-lg mb-4"
+                    className="w-[400px] h-52 rounded-lg mb-4 ml-12"
                   />
                 </div>
               </div>
@@ -57,47 +57,7 @@ const FeedbackSection = ({ title, projects, isEven }) => {
 
 const Feedback = () => {
   const projectCategories = {
-    apiDocumentation: {
-      title: "Feedbacks",
-      projects: [
-        {
-          image: "/assets/fatimah.png", 
-        },
-        {
-          image: "/assets/lakshman.png", 
-        },
-        {
-          image: "/assets/Screenshot 2025-03-29 at 7.03.29 PM.png",
-        },
-        {
-          image: "/assets/Screenshot 2025-03-29 at 7.03.40 PM.png"
-        },
-        {
-          image: "/assets/Screenshot 2025-03-29 at 7.04.05 PM.png"
-        },
-        {
-          image: "/assets/Screenshot 2025-03-29 at 7.30.11 PM.png"
-        },
-        {
-          image: "/assets/Screenshot 2025-03-29 at 7.05.27 PM.png"    
-        },
-        {
-          image: "/assets/Screenshot 2025-03-29 at 7.05.43 PM.png"
-        },
-        {
-          image: "/assets/Screenshot 2025-03-29 at 7.05.54 PM.png"
-        },
-        {
-          image: "/assets/Screenshot_20240516-203550.jpg "
-        },
-        {
-          image: "/assets/Screenshot_20240516-203654.jpg"
-        },
-        {
-          image: "/assets/Screenshot_20240613-193207_1.jpg"
-        }
-      ],
-    },
+
     pastSpeakingEngagements: {
       title: "Past Speaking Engagements",
       projects: [

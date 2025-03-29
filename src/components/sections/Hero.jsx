@@ -14,7 +14,7 @@ export default function Hero() {
             Makinde Mercy Miracle.
           </h1>
           <h1 className="text-5xl text-[#a1b49a] font-extrabold capitalize opacity-[0.7]">
-            Technical Content Writer, Documentation and Frontend Blockchain Developer
+            Technical Content Writer 
           </h1>
           <br />
           <p className="text-xl text-gray-300">
@@ -22,7 +22,7 @@ export default function Hero() {
             user guides/manuals, technical blog posts, FAQs, and developer resources, including API references, and tutorials that empower users to utilize software products effectively.
             <br />
             <br />
-            I am skilled in collaborating with Subject Matter Experts (SMEs) to translate complex concepts into clear, concise, and engaging content.
+            I am passionate about blockchain technology and web3 and its potential to transform industries. I am dedicated to helping users understand and navigate the complexities of this rapidly evolving field.
           </p>
         </div>
         {/* Right Image */}
