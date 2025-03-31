@@ -43,7 +43,7 @@ const FeedbackSection = ({ title, projects, isEven }) => {
                   <img
                     src={project.image}
                     alt={project.title || "Feedback"}
-                    className="w-[400px] h-52 rounded-lg mb-4 ml-12"
+                    className="w-full h-auto rounded-lg mb-4 md:w-[500px] md:h-[300px]"
                   />
                 </div>
               </div>
