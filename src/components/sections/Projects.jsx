@@ -182,23 +182,42 @@ const Projects = () => {
           links: { preview: "https://technicalwritingmp.com/docs/markdown-course/authors/" },
         },
         {
-          title: "TWMP Markdown Course",
+          title: "Stellar Documentation",
           description: (
             <>
-              Contributed to the TWMP Markdown course, authored the{" "}
+              Contributed to the {" "}
               <a
-                href="https://technicalwritingmp.com/docs/markdown-course/getting-started-with-markdown/"
+                href="https://github.com/stellar/stellar-docs/commit/e40662c078f1b1c8b47a88ef4d0984f4f020d9bf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-400 hover:underline"
               >
-                Getting started with Markdowns
+                build section
               </a>{" "}
-              section and course assignment sections.
+               by correcting and fix content flow and readability . 
             </>
           ),
-          tags: ["Markdown", "API Documentation", "Technical Writing"],
-          links: { preview: "https://technicalwritingmp.com/docs/markdown-course/authors/" },
+          tags: ["Markdown", "Developer Doc", "Technical Writing"],
+          links: { preview: "https://developers.stellar.org/docs/build" },
+        },
+        {
+          title: "Vaunt Documentation",
+          description: (
+            <>
+              Contributed to the{" "}
+              <a
+                href="https://github.com/VauntDev/docs/issues/40"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-400 hover:underline"
+              >
+                README.md
+              </a>{" "}
+              by adding `npm` installation process and reorganizing the content.
+            </>
+          ),
+          tags: ["Markdown", "Developer Documentation", "Technical Writing"],
+          links: { preview: "https://github.com/VauntDev" },
         },
       ]
     },
