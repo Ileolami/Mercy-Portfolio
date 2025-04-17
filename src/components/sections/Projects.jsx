@@ -213,7 +213,7 @@ const Projects = () => {
               >
                 README.md
               </a>{" "}
-              by adding `npm` installation process and reorganizing the content.
+              by adding npm installation process and reorganizing the content.
             </>
           ),
           tags: ["Markdown", "Developer Documentation", "Technical Writing"],
